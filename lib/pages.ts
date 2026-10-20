@@ -121,6 +121,6 @@ export { introFor, faqsFor, faqHeadingFor, h1For } from "./seo-content";
 export { internalLinksFor as relatedPages } from "./seo-content";
 
 export function absoluteUrl(path = "") {
-  const root = process.env.NEXT_PUBLIC_SITE_URL || "https://elevatorrepair.com";
+  const root = process.env.NEXT_PUBLIC_SITE_URL || "https://elevatorrepairdirect.com";
   return `${root.replace(/\/$/, "")}/${path.replace(/^\//, "")}`;
 }
